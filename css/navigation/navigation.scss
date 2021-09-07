@@ -1,0 +1,39 @@
+.nav{
+    
+}
+.nav .container-fluid{
+    color: cornsilk;
+}
+
+//Toggle menu
+.nav .container-fluid svg{
+    color: cornsilk;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav .container-fluid a.logo{
+    text-transform: uppercase;
+    color: rgb(226, 226, 226);
+    font-weight: 800;
+    font-size: 2em;
+
+    span{
+        color: rgb(255, 106, 0);
+    }
+}
+
+.nav .container-fluid .collapse .nav-ul {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    li a{
+        color: cornsilk;
+        font-size: 1em;
+        margin-right: 20px;
+    }
+}

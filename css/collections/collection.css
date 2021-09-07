@@ -1,0 +1,47 @@
+.collection .content .header h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.collection .product {
+  background: chocolate;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.collection .product .card {
+  width: 33%;
+  height: 400px;
+  margin-top: 10px;
+  background: #d21ec3;
+}
+
+@media (max-width: 595.98px) {
+  .collection .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .collection .product .card {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=collection.css.map */

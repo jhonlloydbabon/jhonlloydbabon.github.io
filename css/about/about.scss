@@ -1,0 +1,110 @@
+.about .about-wrapper{
+    color: rgb(24, 24, 24);
+    text-transform: uppercase;
+
+    .row{
+       h1{
+        font-weight: 700;
+        font-size: 2rem;
+        color: rgb(34, 34, 34);
+        text-transform: uppercase;
+        font-weight: 300;
+       } 
+       p{
+           font-size: 0.8em;
+           text-transform: capitalize;
+           color: rgb(54, 54, 54);
+       }
+    }
+    .row.content{
+        .first{
+            height: 75vh;
+            
+
+            display: flex;
+            justify-content: center;
+            
+            img{
+                width: 100%;
+                height: auto;
+            }
+
+        }
+        .second{
+            height: auto;
+            
+            padding: 20px 200px;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            h1.header{
+                text-transform:capitalize;
+                font-size: 2em;
+                text-align: center;
+                font-weight: 700;
+                color: rgb(22, 22, 22);
+            }
+            h3{
+                margin-top: 20px;
+                text-align: center;
+                font-size: 1em;
+                font-weight: bold;
+                color: rgb(66, 66, 66);
+            }
+            h4{
+                margin-top: 5px;
+                font-size: 0.8em;
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+            .sizes{
+                min-width: 250px;
+                height: auto;
+                
+                
+
+                ul li{
+                    list-style: none;
+                    padding: 3px 10px;
+                    text-align: center;
+                }
+                li{
+                    display: inline;
+                    cursor: pointer;
+                    font-weight: bold;
+                    font-size: 0.5em;
+                }
+                li:hover{
+                    border: 1px solid rgb(24, 24, 24);
+                }
+            }
+            button{
+                border: 1px solid rgb(29, 29, 29);
+                padding: 3px 20px;
+                transition: .5s ease-in-out;
+            }
+            button:hover{
+                background: rgb(29, 29, 29);
+                color: white;
+            }
+            p{
+                font-size: 0.7em;
+                margin-top: 30px;
+                text-align: left;
+                font-weight: bold;
+                color: rgb(54, 54, 54);
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+@media only screen and(min-width:595.98px) {
+    .row .content .second{
+        background: chocolate;
+        padding: 0;
+    }
+}

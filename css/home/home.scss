@@ -1,0 +1,84 @@
+.home{
+    margin: 0px;
+    padding: 0px;
+}
+.home .carousel-indicators {
+    button{
+        border-radius: 50%;
+        background: rgb(197, 197, 197);
+        margin-right: 15px;
+    }
+    
+}
+
+
+.home .inside .first-slide{
+    background: url('../../assets/DSCF1543.jpg');
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    h4{
+        font-size: 2em;
+        color: rgb(207, 207, 207);
+        text-transform: uppercase;
+        font-weight: 300;
+        padding: 5px 10px;
+        letter-spacing: 1rem;
+    }
+    h1{
+        margin-top: -10px;
+        font-size: 4em;
+        color: rgb(250, 250, 250);
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    a{
+        margin-top: 30px;
+        text-decoration: none;
+        color: rgb(250, 250, 250);
+        font-size: 1em;
+        text-transform: uppercase;
+        background: rgb(255, 106, 0) ;
+        padding: 10px 50px;
+        font-weight: 700;
+    }
+    a:hover{
+        background: rgb(223, 105, 20);
+        transition: 0.5s;
+    }
+}
+
+.home .inside .second-slide{
+    width:100%;
+    height: 100vh;
+    background: url('../../assets/DSCF1474.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home .inside .third-slide{
+    width:100%;
+    height: 100vh;
+    background: url('../../assets/DSCF1539.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

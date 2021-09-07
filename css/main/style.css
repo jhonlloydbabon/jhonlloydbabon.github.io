@@ -1,0 +1,10 @@
+@import url("../navigation/navigation.css");
+@import url("../home/home.css");
+@import url("../about/about.css");
+@import url("../collections/collection.css");
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

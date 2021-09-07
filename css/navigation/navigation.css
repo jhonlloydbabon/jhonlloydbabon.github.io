@@ -1,0 +1,41 @@
+.nav .container-fluid {
+  color: cornsilk;
+}
+
+.nav .container-fluid svg {
+  color: cornsilk;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .container-fluid a.logo {
+  text-transform: uppercase;
+  color: #e2e2e2;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.nav .container-fluid a.logo span {
+  color: #ff6a00;
+}
+
+.nav .container-fluid .collapse .nav-ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav .container-fluid .collapse .nav-ul li a {
+  color: cornsilk;
+  font-size: 1em;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=navigation.css.map */

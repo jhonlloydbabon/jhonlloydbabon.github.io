@@ -1,0 +1,38 @@
+.collection .content .header{
+    h1{
+        font-weight: 700;
+        font-size: 2rem;
+        color: rgb(34, 34, 34);
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+}
+
+.collection .product{
+    background: chocolate;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card{
+        width: 33%;
+        height: 400px;
+        margin-top: 10px;
+        background: rgb(210, 30, 195);
+    }
+}
+
+@media (max-width:595.98px) {
+    .collection .product {
+    display: flex;
+    justify-content: space-between;
+        .card{
+        width: 50%;
+    }
+    }
+}

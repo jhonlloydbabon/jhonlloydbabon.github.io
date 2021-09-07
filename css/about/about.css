@@ -1,0 +1,125 @@
+.about .about-wrapper {
+  color: #181818;
+  text-transform: uppercase;
+}
+
+.about .about-wrapper .row h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.about .about-wrapper .row p {
+  font-size: 0.8em;
+  text-transform: capitalize;
+  color: #363636;
+}
+
+.about .about-wrapper .row.content .first {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .about-wrapper .row.content .first img {
+  width: 100%;
+  height: auto;
+}
+
+.about .about-wrapper .row.content .second {
+  height: auto;
+  padding: 20px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .about-wrapper .row.content .second h1.header {
+  text-transform: capitalize;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+  color: #161616;
+}
+
+.about .about-wrapper .row.content .second h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #424242;
+}
+
+.about .about-wrapper .row.content .second h4 {
+  margin-top: 5px;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.about .about-wrapper .row.content .second .sizes {
+  min-width: 250px;
+  height: auto;
+}
+
+.about .about-wrapper .row.content .second .sizes ul li {
+  list-style: none;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.about .about-wrapper .row.content .second .sizes li {
+  display: inline;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+.about .about-wrapper .row.content .second .sizes li:hover {
+  border: 1px solid #181818;
+}
+
+.about .about-wrapper .row.content .second button {
+  border: 1px solid #1d1d1d;
+  padding: 3px 20px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.about .about-wrapper .row.content .second button:hover {
+  background: #1d1d1d;
+  color: white;
+}
+
+.about .about-wrapper .row.content .second p {
+  font-size: 0.7em;
+  margin-top: 30px;
+  text-align: left;
+  font-weight: bold;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 595.98px) {
+  .row .content .second {
+    background: chocolate;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=about.css.map */
